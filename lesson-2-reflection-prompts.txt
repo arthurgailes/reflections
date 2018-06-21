@@ -1,6 +1,14 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+Git establishes folders for commit history
+
+
+
 How is the staging area different from the working directory and the repository?
+
+it's more like a temp directory, a holding pattern to transition between the two
+
+
 What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
