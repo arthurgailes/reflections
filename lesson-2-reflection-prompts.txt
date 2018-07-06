@@ -11,15 +11,35 @@ it's more like a temp directory, a holding pattern to transition between the two
 
 What value do you think it offers?
 
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+use git diff --staged
+
+
+
 What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+organized? 
+
+when you want to add new features, but allow yourself to make other edits on the master branch
+
+How would branches help?
+
+
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+By showing which branches can't be reached by others.
+  
+
+
+What is the result of merging two branches together? 
+
+
+
+Why do we represent it in
 the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
